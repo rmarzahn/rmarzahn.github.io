@@ -83,6 +83,7 @@ p {
   margin-bottom: 1rem;
 }
 
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -592,6 +593,13 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.column {
+  margin-right: -15px;
+  margin-left: 15px;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .no-gutters {
