@@ -12,3 +12,7 @@ With the beginning of the corona pandemic in Germany, there was the strongest in
 
 For this purpose, a secondary research approach was chosen. Various data sources from the Agentur für Arbeit were used which describe the absolute and relative (compared to the same month of the previous year) increase in unemployment and the sizes of the different industries in Germany.  These data may be used for non-commercial purposes [Source].
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
