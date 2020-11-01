@@ -20,4 +20,3 @@ For this purpose, a secondary research approach was chosen. Various data sources
 | Location    | Germany                     | Germany                     |  Germany - Federal          | Germany - Federal                          |
 | Time        | 01/2020 - 07/2020 (monthly) | 01/2019 - 09/2020 (monthly) | 03/2020 - 09/2020 (monthly) | 01/2020 - 10/2020 (daily)                  |
 | Editing     | Industry clustering         | Industry clustering         | Estimation of missing values <br> Industry clustering| Summarized monthly|
-| Actions     |                           Merged                          |                           Merged                                         |
