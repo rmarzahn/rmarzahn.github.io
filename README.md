@@ -14,7 +14,7 @@ For this purpose, a secondary research approach was chosen. Various data sources
 
 ## Data / task abstraction
 
-| Data        | Job market industries       | Unemployment Germany [2]    | Unemployment region [3]     | COVID-19 Cases RKI [4]                     |
+| Data        | Job market industries [1]   | Unemployment Germany [2]    | Unemployment region [3]     | COVID-19 Cases RKI [4]                     |
 | ----------- | --------------------------- | --------------------------- | --------------------------- | ------------------------------------------ |
 | Topic       | Industry size               | Unemployment                | Unemployment                | COVID-19                                   |
 | Location    | Germany                     | Germany                     |  Germany - Federal          | Germany - Federal                          |
