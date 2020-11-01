@@ -12,7 +12,12 @@ With the beginning of the corona pandemic in Germany, there was the strongest in
 
 For this purpose, a secondary research approach was chosen. Various data sources from the Agentur für Arbeit were used which describe the absolute and relative (compared to the same month of the previous year) increase in unemployment and the sizes of the different industries in Germany.  These data may be used for non-commercial purposes [Source].
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+## Data / task abstraction
+
+|             | Job market industries [1]   | Unemployment Germany [2]    | Unemployment region [3]     | COVID-19 Cases RKI [4]    |
+| ----------- | ------------------------- --| --------------------------- | --------------------------- | ------------------------- |
+| Topic       | Industry size               | Unemployment                | Unemployment                | COVID-19                  |
+| Location    | Germany                     | Germany                     |  Germany - Federal          | Germany - Federal         |
+| Time        | 01/2020 - 07/2020 (monthly) | 01/2019 - 09/2020 (monthly) | 03/2020 - 09/2020 (monthly) | 01/2020 - 10/2020 (daily) |
+| Editing     | Industry clustering         | Industry clustering         | Estimation of missing values <br> Industry clustering| Summarized monthly        |
+| Actions     |                          Merged                           |                           Merged                        |
