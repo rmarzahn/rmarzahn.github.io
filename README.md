@@ -41,9 +41,9 @@ To determine which data type supports a visual representation of the outlined qu
 The chosen data sets thereby contribute to different defined questions:
 |                           | Job market industries [1]   | Unemployment Germany [2]    | Unemployment region [3]     | COVID-19 Cases RKI [4]                     |
 | ------------------------- | --------------------------- | --------------------------- | --------------------------- | ------------------------------------------ |
-| Labor market <br> effects | -                           | -                           | Relative unemployment numbers (without industry) | -                |
+| Labor market <br> effects | -                           | -                           | Relative unemployment <br> numbers (without industry) | -                |
 | Industry <br> effects     | Absolute numbers <br> per industry | Absolute increase of <br> unemployment in relation <br> to industry size | - | -                |
 | Gov.       <br> measures  | -                           | Combination of unemployment <br> increase per industry and <br> government measures | - | -            |
-| Regional <br> differences | -                           | -                           | Relative unemployment increase <br> per industry | Summed monthly cases <br> per federal state |
+| Regional <br> differences | -                           | -                           | Relative unemployment <br> increase per industry | Summed monthly cases <br> per federal state |
 
 
