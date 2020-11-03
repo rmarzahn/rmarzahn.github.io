@@ -74,14 +74,14 @@ Adding a process wise perspective, a faster determination of the topic and bette
 
 
 ## References
-Bundesagentur für Arbeit (2020a): Arbeitsmarkt nach Branchen - Deutschland (Monatszahlen), online available at: <br> https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?nn=20898&topic_f=tabelle-arbeitsmarkt-branchen [final call: 19th October 2020].
+*Bundesagentur für Arbeit (2020a)*: Arbeitsmarkt nach Branchen - Deutschland (Monatszahlen), online available at: <br> https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?nn=20898&topic_f=tabelle-arbeitsmarkt-branchen [final call: 19th October 2020].
 
-Bundesagentur für Arbeit (2020b): Auswirkungen der Coronakrise auf den Arbeitsmarkt - Deutschland, West/Ost, Länder, Kreise und Agenturen für Arbeit (Monatszahlen), online available at: <br> https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?nn=15024&r_f=ur_Deutschland&topic_f=corona-datenset-corona [final call: 16th October 2020].
+*Bundesagentur für Arbeit (2020b)*: Auswirkungen der Coronakrise auf den Arbeitsmarkt - Deutschland, West/Ost, Länder, Kreise und Agenturen für Arbeit (Monatszahlen), online available at: <br> https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?nn=15024&r_f=ur_Deutschland&topic_f=corona-datenset-corona [final call: 16th October 2020].
 
-Bundesagentur für Arbeit (2020c): Eckwerte Arbeitsmarkt, online available at: <br> https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Angebote/Dashboard-Eckwerte-Arbeitsmarkt/Dashboard-Eckwerte-Arbeitsmarkt-Nav.html [final call: 21th October 2020].
+*Bundesagentur für Arbeit (2020c)*: Eckwerte Arbeitsmarkt, online available at: <br> https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Angebote/Dashboard-Eckwerte-Arbeitsmarkt/Dashboard-Eckwerte-Arbeitsmarkt-Nav.html [final call: 21th October 2020].
 
-IamExpat (2020): Corona crisis: Greatest decline in German workforce since reunification, online available at:<br> https://www.iamexpat.de/career/employment-news/corona-crisis-greatest-decline-german-workforce-reunification [final call: 12th October 2020].
+*IamExpat (2020)*: Corona crisis: Greatest decline in German workforce since reunification, online available at:<br> https://www.iamexpat.de/career/employment-news/corona-crisis-greatest-decline-german-workforce-reunification [final call: 12th October 2020].
 
-Munzner, T. (2009): A Neasted Model for Visualization Design and Validation, in: IEEE Transactions on Visualization and Computer Graphics 15(6), pp. 921-928.
+*Munzner, T. (2009)*: A Neasted Model for Visualization Design and Validation, in: IEEE Transactions on Visualization and Computer Graphics 15(6), pp. 921-928.
 
-Nationale Plattform für geographische Daten (NPGEO) (2020): RKI Covid19, online available at: <br> https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data [final call: 16th October 2020].
+*Nationale Plattform für geographische Daten (NPGEO) (2020)*: RKI Covid19, online available at: <br> https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data [final call: 16th October 2020].
