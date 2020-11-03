@@ -50,6 +50,7 @@ Having prepared the datasets separately, they were combined to an integrated dat
 - Nominal data: Industry, Region
 - Metric data: Datetime, COVID-19 Cases, Unemployment Numbers (absolute + relative) 
 
+
 ## Visual encoding / interaction design
 Defining a suitable visualization, an explanatory data analysis and considerations about different visualization types were processed. To answer the question concerning the labour market effects, a map was considered as the best choice. Due to the geographic approach, the federal perspective can be included easier compared to, for instance, multiple line charts. The colour of a region shows how much it has been affected by unemployment change. To also include a time-related view and details on the development of unemployment, sparklines next to the map provide information of the development over time. 
 
@@ -59,15 +60,18 @@ The third visualisation combines the findings of the first two and shows the dev
 
 Concerning the choice of colors, a category wise scale was chosen over a continuous scale. By this means, a clearer and more significant statement can be shown and it is easier to see and distinguish differences. The color scheme was chosen because it starts at a defined zero and gets more intense as unemployment increases. Therefore, the viewer intuitively catches an eye on industries and regions that were affected most. Moreover, the bluish color is decent and neutral and, therefore, not distracting or unpleasant to look at.
 
+
 ## Algorithm design
 To make sure that the computational complexity is appropriately, redundant and not required data was deleted in the data preparation process. Additionally, the extent of data was reduced by aggregating daily to monthly data and filtering for the regarded time frame of the COVID-19 pandemic.
 
 Nonetheless, the practical implementation shows minor bottlenecks. To classify the values for the color scale, a loop over the whole data frame was used. With regard to the little amount of rows this was a reasonable solution but would cause performance problems with a greater amount of rows. This problem could easily be fixed by working with the pandas .loc function instead of a loop. Furthermore, the use of GeoJSON data to display a map can cause negative effects. Addressing this downside, there is a trade-off between the quality of GeoJSON data and performance time which needs to be considered while implementing.
 
+
 ## Possible Improvements and Limitations
 Regarding a content wise perspective, the static integration of the data could be changed to a dynamic integration. Thereby, the visualizations could be updated automatically over time. Besides that, the interactive visualizations could be equipped with a multi selection instead of single selection to enable the possibilities for direct comparisons between industries and regions.
 Considering a technical perspective, the web application itself is responsive and usable from diverse devices. The visualizations, however, are implemented statically, which causes displaying problems. Additionally, some browsers, e.g. Safari, have problems displaying the visualizations in the correct layout.
 Adding a process wise perspective, a faster determination of the topic and better focus on the bigger picture instead of getting lost in minor details could support a more fluent project process. 
+
 
 ## References
 Bundesagentur für Arbeit (2020a): Arbeitsmarkt nach Branchen - Deutschland (Monatszahlen), online available at: <br> https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?nn=20898&topic_f=tabelle-arbeitsmarkt-branchen [final call: 19th October 2020].
