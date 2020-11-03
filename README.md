@@ -43,7 +43,7 @@ The chosen data sets thereby contribute to different defined questions:
 | ------------------------- | --------------------------- | --------------------------- | --------------------------- | ------------------------------------------ |
 | Labor market <br> effects | -                           | -                           | Relative unemployment <br> numbers (without industry) | -                |
 | Industry <br> effects     | Absolute numbers <br> per industry | Absolute increase of <br> unemployment in relation <br> to industry size | - | -                |
-| Gov.       <br> measures  | -                           | Combination of unemployment <br> increase per industry and <br> government measures | - | -            |
+| Government <br> measures  | -                           | Combination of unemployment <br> increase per industry and <br> government measures | - | -            |
 | Regional <br> differences | -                           | -                           | Relative unemployment <br> increase per industry | Summed monthly cases <br> per federal state |
 
 
