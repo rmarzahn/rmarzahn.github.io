@@ -42,8 +42,8 @@ The chosen data sets thereby contribute to different defined questions:
 |                      | Job market industries [1]   | Unemployment Germany [2]    | Unemployment region [3]     | COVID-19 Cases RKI [4]                     |
 | -------------------- | --------------------------- | --------------------------- | --------------------------- | ------------------------------------------ |
 | Labor market effects | -                           | -                           | Relative unemployment numbers <br> (without industry) | -                |
-| Industry effects     | Absolute numbers per industry | Absolute increase of unemployment <br> in relation to industry size | - | -                          |
-| Government measures  | -                           | Combination of unemployment increase per industry and government measures | - | -                      |
+| Industry effects     | Absolute numbers <br> per industry | Absolute increase of <br> unemployment in relation <br> to industry size | - | -                |
+| Government measures  | -                           | Combination of unemployment <br> increase per industry and <br> government measures | - | -            |
 | Regional differences | -                           | -                           | Relative unemployment increase <br> per industry | Summed monthly cases <br> per federal state |
 
 
