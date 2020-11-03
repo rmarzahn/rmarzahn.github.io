@@ -30,7 +30,7 @@ Abstracting the presented ideas, this project analyzes the development and chang
 
 To support the tasks, the selected data sets had to be prepared. To compare them on a time-related level, the daily COVID-19 data was aggregated to monthly data and all datasets were filtered for the relevant months of the pandemic from March to September. Furthermore, to guarantee correct and efficient industry-related comparisons, existing industries were clustered to an amount of ten to reduce complexity and enable comparability. Missing values were estimated with further data concerning the regional unemployment numbers per industry from the Bundesagentur für Arbeit *(Bundesagentur für Arbeit 2020c)*.
 
-|             | Job market industries [1]  <br> *Bundesagentur für Arbeit 2020a* | Unemployment Germany [2] <br> *Bundesagentur für Arbeit 2020b*   | Unemployment region [3] <br> *Bundesagentur für Arbeit 2020b*    | COVID-19 Cases RKI [4] <br> *NPGEO 2020*                    |
+|             | Job market industries [1]  <br> *BA für Arbeit 2020a* | Unemployment Germany [2] <br> *BA für Arbeit 2020b*   | Unemployment region [3] <br> *BA für Arbeit 2020b*    | COVID-19 Cases RKI [4] <br> *NPGEO 2020*                    |
 | ----------- | --------------------------- | --------------------------- | --------------------------- | ------------------------------------------ |
 | Topic       | Industry size               | Unemployment                | Unemployment                | COVID-19                                   |
 | Editing     | Industry clustering         | Industry clustering         | Estimation of missing values <br> Industry clustering| Summarized monthly|
@@ -39,7 +39,7 @@ To support the tasks, the selected data sets had to be prepared. To compare them
 To determine which data type supports a visual representation of the outlined questions, the levels of action were defined. Concerning high-level choices, existing data is used to get insights about the change of unemployment over time and regional differences in unemployment. Furthermore, additional data is calculated to get insights about the change in unemployment in relation to the industry size. Regarding low-level choices, the project targets to find correlations between the change in unemployment and COVID-19 cases as well as taken government measures from a national, federal and industrial perspective.
 
 The chosen data sets thereby contribute to different defined questions:
-|                           | Job market industries [1] <br> *Bundesagentur für Arbeit 2020a*  | Unemployment Germany [2] <br> *Bundesagentur für Arbeit 2020b*   | Unemployment region [3] <br> *Bundesagentur für Arbeit 2020b*    | COVID-19 Cases RKI [4] <br> *NPGEO 2020*                    |
+|                           | Job market industries [1] <br> *BA für Arbeit 2020a*  | Unemployment Germany [2] <br> *BA für Arbeit 2020b*   | Unemployment region [3] <br> *BA für Arbeit 2020b*    | COVID-19 Cases RKI [4] <br> *NPGEO 2020*                    |
 | ------------------------- | --------------------------- | --------------------------- | --------------------------- | ------------------------------------------ |
 | Labor market <br> effects | -                           | -                           | Relative unemployment <br> numbers (without industry) | -                |
 | Industry <br> effects     | Absolute numbers <br> per industry | Absolute increase of <br> unemployment in relation <br> to industry size | - | -                |
