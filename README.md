@@ -46,4 +46,38 @@ The chosen data sets thereby contribute to different defined questions:
 | Government <br> measures  | -                           | Combination of unemployment <br> increase per industry and <br> government measures | - | -            |
 | Regional <br> differences | -                           | -                           | Relative unemployment <br> increase per industry | Summed monthly cases <br> per federal state |
 
+Having prepared the datasets separately, they were combined to an integrated database containing different attribute types:
+- Nominal data: Industry, Region
+- Metric data: Datetime, COVID-19 Cases, Unemployment Numbers (absolute + relative) 
 
+## Visual encoding / interaction design
+Defining a suitable visualization, an explanatory data analysis and considerations about different visualization types were processed. To answer the question concerning the labour market effects, a map was considered as the best choice. Due to the geographic approach, the federal perspective can be included easier compared to, for instance, multiple line charts. The colour of a region shows how much it has been affected by unemployment change. To also include a time-related view and details on the development of unemployment, sparklines next to the map provide information of the development over time. 
+
+It becomes clear that there are large regional differences. To find an explanation for these differences, the second visualisation investigates industries in Germany on a national level from an industrial perspective. It shows the size of an industry measured by the amount of jobs subject to social insurance contributions. Due to the number of industries and against the background of higher clarity, a horizontal bar chart was chosen over a vertical one. This visualization motivates to have a closer look at the increase in unemployment per industry over time in relation to the industry size. In order to interpret the different trends, the user can choose between different government measures which are displayed as a time interval in the line chart. Also, an industry can be chosen by clicking on the bar or the line in the diagram which makes it easier to look at one industry in particular. As a consequence the two charts are combined by interactive selection and conditioning. That is why a multiple line chart was a suitable solution weighted against small multiples. This visualisation makes clear that, in addition to regional differences, the sectors are also affected to varying degrees.
+
+The third visualisation combines the findings of the first two and shows the development of unemployment per region and per sector. Regarding regional differences, a map and a heatmap visualization was weighed against each other. For the given purpose, a heatmap gave a better overview perspective by giving the user the possibility to see all regions, industries, and the average increase in unemployment per industry in one visualization. The darker a field in the heat map is, the higher was the increase in unemployment. To provide a possible explanation, again an interactive tool is included. The user can click on the different fields of the heat map in order to see the development of unemployment per region and industry over time as a simple line chart. Against the background of the influence of the COVID-19 pandemic, a bar chart showing the federal COVID-19 cases is overlaid to give an idea of how these case numbers have affected the increase in unemployment.
+
+Concerning the choice of colors, a category wise scale was chosen over a continuous scale. By this means, a clearer and more significant statement can be shown and it is easier to see and distinguish differences. The color scheme was chosen because it starts at a defined zero and gets more intense as unemployment increases. Therefore, the viewer intuitively catches an eye on industries and regions that were affected most. Moreover, the bluish color is decent and neutral and, therefore, not distracting or unpleasant to look at.
+
+## Algorithm design
+To make sure that the computational complexity is appropriately, redundant and not required data was deleted in the data preparation process. Additionally, the extent of data was reduced by aggregating daily to monthly data and filtering for the regarded time frame of the COVID-19 pandemic.
+
+Nonetheless, the practical implementation shows minor bottlenecks. To classify the values for the color scale, a loop over the whole data frame was used. With regard to the little amount of rows this was a reasonable solution but would cause performance problems with a greater amount of rows. This problem could easily be fixed by working with the pandas .loc function instead of a loop. Furthermore, the use of GeoJSON data to display a map can cause negative effects. Addressing this downside, there is a trade-off between the quality of GeoJSON data and performance time which needs to be considered while implementing.
+
+## Possible Improvements and Limitations
+Regarding a content wise perspective, the static integration of the data could be changed to a dynamic integration. Thereby, the visualizations could be updated automatically over time. Besides that, the interactive visualizations could be equipped with a multi selection instead of single selection to enable the possibilities for direct comparisons between industries and regions.
+Considering a technical perspective, the web application itself is responsive and usable from diverse devices. The visualizations, however, are implemented statically, which causes displaying problems. Additionally, some browsers, e.g. Safari, have problems displaying the visualizations in the correct layout.
+Adding a process wise perspective, a faster determination of the topic and better focus on the bigger picture instead of getting lost in minor details could support a more fluent project process. 
+
+## References
+Bundesagentur für Arbeit (2020a): Arbeitsmarkt nach Branchen - Deutschland (Monatszahlen), online available at: <br> https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?nn=20898&topic_f=tabelle-arbeitsmarkt-branchen [final call: 19th October 2020].
+
+Bundesagentur für Arbeit (2020b): Auswirkungen der Coronakrise auf den Arbeitsmarkt - Deutschland, West/Ost, Länder, Kreise und Agenturen für Arbeit (Monatszahlen), online available at: <br> https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?nn=15024&r_f=ur_Deutschland&topic_f=corona-datenset-corona [final call: 16th October 2020].
+
+Bundesagentur für Arbeit (2020c): Eckwerte Arbeitsmarkt, online available at: <br> https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Angebote/Dashboard-Eckwerte-Arbeitsmarkt/Dashboard-Eckwerte-Arbeitsmarkt-Nav.html [final call: 21th October 2020].
+
+IamExpat (2020): Corona crisis: Greatest decline in German workforce since reunification, online available at:<br> https://www.iamexpat.de/career/employment-news/corona-crisis-greatest-decline-german-workforce-reunification [final call: 12th October 2020].
+
+Munzner, T. (2009): A Neasted Model for Visualization Design and Validation, in: IEEE Transactions on Visualization and Computer Graphics 15(6), pp. 921-928.
+
+Nationale Plattform für geographische Daten (NPGEO) (2020): RKI Covid19, online available at: <br> https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data [final call: 16th October 2020].
