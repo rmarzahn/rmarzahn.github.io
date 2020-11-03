@@ -68,7 +68,7 @@ Nonetheless, the practical implementation shows minor bottlenecks. To classify t
 
 
 ## Possible Improvements and Limitations
-Regarding a content wise perspective, the static integration of the data could be changed to a dynamic integration. Thereby, the visualizations could be updated automatically over time. Besides that, the interactive visualizations could be equipped with a multi selection instead of single selection to enable the possibilities for direct comparisons between industries and regions.
+Regarding a content wise perspective, the static integration of the data could be changed to a dynamic integration. Thereby, the visualizations could be updated automatically over time, if the data was provided in another format than as monthly published Excel sheets. Besides that, the interactive visualizations could be equipped with a multi selection instead of single selection to enable the possibilities for direct comparisons between industries and regions.
 Considering a technical perspective, the web application itself is responsive and usable from diverse devices. The visualizations, however, are implemented statically, which causes displaying problems. Additionally, some browsers, e.g. Safari, have problems displaying the visualizations in the correct layout.
 Adding a process wise perspective, a faster determination of the topic and better focus on the bigger picture instead of getting lost in minor details could support a more fluent project process. 
 
