@@ -39,11 +39,11 @@ To support the tasks, the selected data sets had to be prepared. To compare them
 To determine which data type supports a visual representation of the outlined questions, the levels of action were defined. Concerning high-level choices, existing data is used to get insights about the change of unemployment over time and regional differences in unemployment. Furthermore, additional data is calculated to get insights about the change in unemployment in relation to the industry size. Regarding low-level choices, the project targets to find correlations between the change in unemployment and COVID-19 cases as well as taken government measures from a national, federal and industrial perspective.
 
 The chosen data sets thereby contribute to different defined questions:
-|                      | Job market industries [1]   | Unemployment Germany [2]    | Unemployment region [3]     | COVID-19 Cases RKI [4]                     |
-| -------------------- | --------------------------- | --------------------------- | --------------------------- | ------------------------------------------ |
-| Labor market effects | -                           | -                           | Relative unemployment numbers <br> (without industry) | -                |
-| Industry effects     | Absolute numbers <br> per industry | Absolute increase of <br> unemployment in relation <br> to industry size | - | -                |
-| Government measures  | -                           | Combination of unemployment <br> increase per industry and <br> government measures | - | -            |
-| Regional differences | -                           | -                           | Relative unemployment increase <br> per industry | Summed monthly cases <br> per federal state |
+|                           | Job market industries [1]   | Unemployment Germany [2]    | Unemployment region [3]     | COVID-19 Cases RKI [4]                     |
+| ------------------------- | --------------------------- | --------------------------- | --------------------------- | ------------------------------------------ |
+| Labor market <br> effects | -                           | -                           | Relative unemployment numbers <br> (without industry) | -                |
+| Industry <br> effects     | Absolute numbers <br> per industry | Absolute increase of <br> unemployment in relation <br> to industry size | - | -                |
+| Government <br> measures  | -                           | Combination of unemployment <br> increase per industry and <br> government measures | - | -            |
+| Regional <br> differences | -                           | -                           | Relative unemployment increase <br> per industry | Summed monthly cases <br> per federal state |
 
 
