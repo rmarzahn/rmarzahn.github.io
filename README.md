@@ -82,6 +82,6 @@ Adding a process wise perspective, a faster determination of the topic and bette
 
 *IamExpat (2020)*: Corona crisis: Greatest decline in German workforce since reunification, online available at:<br> https://www.iamexpat.de/career/employment-news/corona-crisis-greatest-decline-german-workforce-reunification [final call: 12th October 2020].
 
-*Munzner, T. (2009)*: A Neasted Model for Visualization Design and Validation, in: IEEE Transactions on Visualization and Computer Graphics 15(6), pp. 921-928.
+*Munzner, T. (2009)*: A Nested Model for Visualization Design and Validation, in: IEEE Transactions on Visualization and Computer Graphics 15(6), pp. 921-928.
 
 *Nationale Plattform für geographische Daten (NPGEO) (2020)*: RKI Covid19, online available at: <br> https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data [final call: 16th October 2020].
