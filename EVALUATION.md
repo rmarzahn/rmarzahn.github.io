@@ -7,7 +7,7 @@ The objective of this project is to give a data exploration story on how the COV
 - Did the flight traffic in some regions of the world react differently?
 
 ## User Story
-Using the Cognitive Walkthrough method, the following work describes how a person from the target audience can use the visualizations and if the given questions can be answered. 
+Using the Cognitive Walkthrough method *(Usability Body of Knowledge 2010)*, the following work describes how a person from the target audience can use the visualizations and if the given questions can be answered. 
 
 The initial impression of the web application is very clean and minimalistic. However, a short introduction giving some contextual information about what the provided visualizations are going to address is missing. 
 
@@ -54,4 +54,6 @@ Additionally, descriptive text passages in the form of an introduction or transi
 *Péjac, B., Mühlenhaupt, J. & Wieseke, M. (2020)*: CoViD19 & Flight Traffic - A Data Exploration Story, online available at: <br>https://box.fu-berlin.de/s/4pqa4FxGM3G6wx4#pdfviewer [final call: 04.11.2020].
 
 *Statista (2020)*: Auswirkungen des Coronavirus (COVID-19) auf die Luftfahrt, online available at: <br>https://de.statista.com/statistik/studie/id/72253/dokument/auswirkungen-des-coronavirus-auf-die-luftfahrt/ [final call: 05.11.2020].
+
+*Usability (2010)*: Cognitive Walkthrough, online available at: <br>https://www.usabilitybok.org/cognitive-walkthrough [final call: 05.11.2020].
 
