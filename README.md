@@ -1,6 +1,6 @@
 # Documentation "Unemployment in Germany during COVID-19"
 
-The present documentation explains the concept and design choices for the data visualization project “Unemployment in Germany during COVID-19”. The objective of this project is to give a summary on the development of unemployment in Germany during the global COVID-19 pandemic from diverse perspectives. A screencast giving a short introduction can be viewed here: <br> https://www.youtube.com/watch?v=dnODesKKDgo
+The present documentation explains the concept and design choices for the data visualization project “Unemployment in Germany during COVID-19”. The objective of this project is to give a summary on the development of unemployment in Germany during the global COVID-19 pandemic from diverse perspectives. A screencast giving a short introduction in the visualizations can be viewed here: <br> https://www.youtube.com/watch?v=dnODesKKDgo
 
 Bringing comprehensive information into account, mainly two data sources were used for the project. On the one hand, data sets from the Bundesagentur für Arbeit *(Bundesagentur für Arbeit 2020a, Bundesagentur für Arbeit 2020b)* formed the basis to analyze the change in unemployment, on the other hand, a data set from the Robert-Koch Institut *(NPGEO 2020)* was used to reference this change to the COVID-19 cases.
 The visualization project was implemented with Python 3.8.3 using mainly the pandas, altair and json library. The outcome is a data storytelling inspired web application, which can be used with Microsoft Edge, Mozilla Firefox, and Google Chrome.
