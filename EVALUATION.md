@@ -1,4 +1,4 @@
-# Evaluation Group 4 - 'Influence of COVID-19 on Flight Traffic'
+# Evaluation Group 4 - "Influence of COVID-19 on Flight Traffic"
 
 The present evaluation classifies the concept and design choices for the data visualization project “Influence of COVID-19 on Flight Traffic” *(Péjac 2020)*. 
 
