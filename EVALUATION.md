@@ -49,7 +49,7 @@ Additionally descriptive text passages in the form of an introduction or transit
 ## References
 *Munzner, T. (2009)*: A Nested Model for Visualization Design and Validation, in: IEEE Transactions on Visualization and Computer Graphics 15(6), pp. 921-928.
 
-*Péjac, B. (2020)*: CoViD19 & FLight Traffic - A Data Exploration Story, online available at: <br>https://brunottonurb.github.io/datavis/ [final call: 05.11.2020].
+*Péjac, B. (2020)*: CoViD19 & Flight Traffic - A Data Exploration Story, online available at: <br>https://brunottonurb.github.io/datavis/ [final call: 05.11.2020].
 
 *Péjac, B., Mühlenhaupt, J. & Wieseke, M. (2020)*: CoViD19 & Flight Traffic - A Data Exploration Story, online available at: <br>https://box.fu-berlin.de/s/4pqa4FxGM3G6wx4#pdfviewer [final call: 04.11.2020].
 
